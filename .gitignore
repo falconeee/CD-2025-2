@@ -6,3 +6,4 @@ venv/
 *.png
 *.pdf
 *.zip
+*.parquet
