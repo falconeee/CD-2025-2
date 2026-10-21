@@ -1,9 +1,20 @@
+# Ambientes virtuais
 venv/
 .venv/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Dados e arquivos gerados (não versionados)
+data/
 *.csv
+*.parquet
+*.zip
+*.pdf
 *.jpg
 *.jpeg
 *.png
-*.pdf
-*.zip
-*.parquet
