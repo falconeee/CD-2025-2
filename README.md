@@ -1,79 +1,79 @@
-# Ciência de Dados — 2025/2
+# Data Science — 2025/2
 
-Material da disciplina **Ciência de Dados** (Mestrado em Informática — UFES), semestre 2025/2, ministrada pelo prof. Giovanni Comarela.
+Material for the **Data Science** course (Master's in Computer Science — UFES), semester 2025/2, taught by Prof. Giovanni Comarela.
 
-O repositório reúne os notebooks das aulas, as listas de exercícios resolvidas, o trabalho prático e o projeto final.
+The repository gathers the lecture notebooks, the solved exercise lists, the hands-on assignment and the final project.
 
-## Estrutura
+## Structure
 
 ```
 .
-├── aulas/               # Notebooks das aulas
-├── listas/              # Listas de exercícios resolvidas
-├── trabalho_pratico/    # Agrupamento de jogos da Steam por descrição
-├── projeto_final/       # Previsão de resultados na Fórmula 1
+├── aulas/               # Lecture notebooks
+├── listas/              # Solved exercise lists
+├── trabalho_pratico/    # Clustering Steam games by description
+├── projeto_final/       # Predicting Formula 1 results
 └── requirements.txt
 ```
 
-### Aulas
+### Lectures
 
-| # | Notebook | Tema |
+| # | Notebook | Topic |
 |---|----------|------|
-| 01 | [aula_01_intro](aulas/aula_01_intro.ipynb) | Introdução e regras do jogo |
-| 02 | [aula_02_intro2](aulas/aula_02_intro2.ipynb) | Probabilidade |
-| 03 | [aula_03_pandas](aulas/aula_03_pandas.ipynb) | Manipulação de dados com pandas |
-| 04 | [aula_04_seaborn](aulas/aula_04_seaborn.ipynb) | Visualização básica de dados |
-| 06 | [aula_06_webscraping](aulas/aula_06_webscraping.ipynb) | Obtenção de dados na web |
+| 01 | [aula_01_intro](aulas/aula_01_intro.ipynb) | Introduction and ground rules |
+| 02 | [aula_02_intro2](aulas/aula_02_intro2.ipynb) | Probability |
+| 03 | [aula_03_pandas](aulas/aula_03_pandas.ipynb) | Data manipulation with pandas |
+| 04 | [aula_04_seaborn](aulas/aula_04_seaborn.ipynb) | Basic data visualization |
+| 06 | [aula_06_webscraping](aulas/aula_06_webscraping.ipynb) | Getting data from the web |
 | 06 | [aula_06_webscraping_APIs](aulas/aula_06_webscraping_APIs.ipynb) | APIs |
-| 07 | [aula_07_tfidf](aulas/aula_07_tfidf.ipynb) | Representação de dados textuais (TF-IDF) |
-| 08 | [aula_08_metricas](aulas/aula_08_metricas.ipynb) | Dissimilaridades e métricas |
-| 09 | [aula_09_dimensionalidade](aulas/aula_09_dimensionalidade.ipynb) | Maldição da dimensionalidade |
-| 11 | [aula_11_algebra](aulas/aula_11_algebra.ipynb) | Revisão de álgebra linear |
+| 07 | [aula_07_tfidf](aulas/aula_07_tfidf.ipynb) | Representing text data (TF-IDF) |
+| 08 | [aula_08_metricas](aulas/aula_08_metricas.ipynb) | Dissimilarities and metrics |
+| 09 | [aula_09_dimensionalidade](aulas/aula_09_dimensionalidade.ipynb) | Curse of dimensionality |
+| 11 | [aula_11_algebra](aulas/aula_11_algebra.ipynb) | Linear algebra review |
 | 12 | [aula_12_pca](aulas/aula_12_pca.ipynb) | PCA |
 | 13 | [aula_13_svd](aulas/aula_13_svd.ipynb), [aula_13_svd2](aulas/aula_13_svd2.ipynb) | SVD |
-| 14 | [aula_14_kmeans](aulas/aula_14_kmeans.ipynb) | Agrupamento e k-means |
-| 15 | [aula_15_hierarquico](aulas/aula_15_hierarquico.ipynb) | Agrupamento hierárquico |
-| 16 | [aula_16_spectral](aulas/aula_16_spectral.ipynb) | Agrupamento espectral |
-| 17 | [aula_17_avaliacao_clusters](aulas/aula_17_avaliacao_clusters.ipynb) | Avaliação de agrupamentos |
+| 14 | [aula_14_kmeans](aulas/aula_14_kmeans.ipynb) | Clustering and k-means |
+| 15 | [aula_15_hierarquico](aulas/aula_15_hierarquico.ipynb) | Hierarchical clustering |
+| 16 | [aula_16_spectral](aulas/aula_16_spectral.ipynb) | Spectral clustering |
+| 17 | [aula_17_avaliacao_clusters](aulas/aula_17_avaliacao_clusters.ipynb) | Cluster evaluation |
 | 18 | [aula_18_dbscan](aulas/aula_18_dbscan.ipynb) | DBSCAN |
-| 19 | [aula_19_classificacao](aulas/aula_19_classificacao.ipynb) | Classificação |
-| 21 | [aula_21_regressao_logistica](aulas/aula_21_regressao_logistica.ipynb) | Regressão logística |
-| 22 | [aula_22_avaliacao_classificadores](aulas/aula_22_avaliacao_classificadores.ipynb) | Avaliação de classificadores |
+| 19 | [aula_19_classificacao](aulas/aula_19_classificacao.ipynb) | Classification |
+| 21 | [aula_21_regressao_logistica](aulas/aula_21_regressao_logistica.ipynb) | Logistic regression |
+| 22 | [aula_22_avaliacao_classificadores](aulas/aula_22_avaliacao_classificadores.ipynb) | Classifier evaluation |
 
-### Listas
+### Exercise lists
 
-| Lista | Tema |
+| List | Topic |
 |-------|------|
-| [lista_01](listas/lista_01.ipynb) | CDFs, boxplots e histogramas |
-| [lista_02](listas/lista_02.ipynb) | Dissimilaridades e métricas |
-| [lista_03](listas/lista_03.ipynb) | PCA, SVD e redução de dimensionalidade |
+| [lista_01](listas/lista_01.ipynb) | CDFs, boxplots and histograms |
+| [lista_02](listas/lista_02.ipynb) | Dissimilarities and metrics |
+| [lista_03](listas/lista_03.ipynb) | PCA, SVD and dimensionality reduction |
 
-## Trabalho prático — Jogos da Steam
+## Hands-on assignment — Steam games
 
-[Enunciado](trabalho_pratico/especificacao.ipynb) · [Solução](trabalho_pratico/trabalho_pratico.ipynb)
+[Statement](trabalho_pratico/especificacao.ipynb) · [Solution](trabalho_pratico/trabalho_pratico.ipynb)
 
-O trabalho investiga se a descrição de um jogo da Steam tem relação com os gêneros a que ele pertence, usando apenas aprendizado não supervisionado.
+The assignment investigates whether a Steam game's description relates to the genres it belongs to, using unsupervised learning only.
 
-- **Pipeline:** pré-processamento do texto, TF-IDF, redução com TruncatedSVD (200 componentes, cerca de 20% da variância), visualização com t-SNE e agrupamento com K-Means (k = 20) e Spectral Clustering.
-- **Resultados:** os grupos se sobrepõem bastante (silhueta máxima perto de 0,06). Mesmo assim, o K-Means encontrou temas semânticos claros, como corrida e *survival horror*. Rótulos como "Indie", "Action" e "Casual" aparecem espalhados por quase todos os grupos porque indicam o escopo do jogo e não o seu conteúdo.
+- **Pipeline:** text preprocessing, TF-IDF, reduction with TruncatedSVD (200 components, about 20% of the variance), visualization with t-SNE and clustering with K-Means (k = 20) and Spectral Clustering.
+- **Results:** the clusters overlap a lot (maximum silhouette around 0.06). Even so, K-Means found clear semantic themes, such as racing and *survival horror*. Labels such as "Indie", "Action" and "Casual" are spread across almost every cluster because they describe the game's scope, not its content.
 
-## Projeto final — Fórmula 1
+## Final project — Formula 1
 
-[Enunciado](projeto_final/especificacao.ipynb) · [Solução](projeto_final/projeto_final.ipynb)
+[Statement](projeto_final/especificacao.ipynb) · [Solution](projeto_final/projeto_final.ipynb)
 
-O projeto prevê em qual faixa de classificação final um piloto vai terminar, a partir de dados disponíveis antes da corrida. As faixas são Vencedor (P1), Pódio (P2–P3), Pontos (P4–P10) e Sem pontos (P11+).
+The project predicts which final-position band a driver will finish in, from data available before the race. The bands are Winner (P1), Podium (P2–P3), Points (P4–P10) and No points (P11+).
 
-- **Dados:** Ergast Developer API, restritos à era híbrida (2014 em diante) na etapa de modelagem.
-- **Análise exploratória:** vitórias por piloto e por equipe, confiabilidade, pit stops, ultrapassagens por circuito e conversão de pole position.
-- **Agrupamentos:** perfis de pilotos, de circuitos e de construtores, com K-Means e agrupamento hierárquico.
-- **Modelos:**
+- **Data:** Ergast Developer API, restricted to the hybrid era (2014 onwards) in the modeling stage.
+- **Exploratory analysis:** wins by driver and by team, reliability, pit stops, overtakes per circuit and pole position conversion.
+- **Clustering:** driver, circuit and constructor profiles, with K-Means and hierarchical clustering.
+- **Models:**
 
-  | Modelo | Acurácia | Acurácia balanceada |
+  | Model | Accuracy | Balanced accuracy |
   |--------|----------|---------------------|
-  | Random Forest | 75,34% | 73,45% |
-  | XGBoost | 77,43% | 71,55% |
+  | Random Forest | 75.34% | 73.45% |
+  | XGBoost | 77.43% | 71.55% |
 
-## Como executar
+## How to run
 
 ```bash
 python -m venv .venv
@@ -82,16 +82,16 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-### Dados
+### Data
 
-Os arquivos de dados (`.csv`, `.parquet`) **não são versionados** (veja o `.gitignore`). Para reexecutar os notebooks, coloque os arquivos nos caminhos que eles esperam:
+The data files (`.csv`, `.parquet`) are **not versioned** (see `.gitignore`). To rerun the notebooks, place the files at the paths they expect:
 
-- **Trabalho prático:** `trabalho_pratico/steam_games.parquet`, gerado a partir de datasets públicos da Steam no Kaggle.
-- **Projeto final:** `projeto_final/data/`, com os CSVs do Ergast (`circuits.csv`, `results.csv`, `races.csv`, `qualifying.csv`, `pit_stops.csv` etc.) e o arquivo `lap_times.parquet`.
-- **Aulas e listas:** alguns notebooks baixam os dados direto da internet. Outros esperam arquivos locais, por exemplo `datasets-minicurso/abilene_traffic.csv` nas aulas de SVD e `dados_questao_4.csv` e `dados_questao_5.csv` na lista 1.
+- **Hands-on assignment:** `trabalho_pratico/steam_games.parquet`, built from public Steam datasets on Kaggle.
+- **Final project:** `projeto_final/data/`, with the Ergast CSVs (`circuits.csv`, `results.csv`, `races.csv`, `qualifying.csv`, `pit_stops.csv`, etc.) and the file `lap_times.parquet`.
+- **Lectures and lists:** some notebooks download their data straight from the internet. Others expect local files, for example `datasets-minicurso/abilene_traffic.csv` in the SVD lectures and `dados_questao_4.csv` and `dados_questao_5.csv` in list 1.
 
-> A aula 11 importa os módulos auxiliares `laUtilities` e `demoUtilities`, que não estão neste repositório.
+> Lecture 11 imports the helper modules `laUtilities` and `demoUtilities`, which are not in this repository.
 
-## Autor
+## Author
 
-Gabriel Falcone da Silva — Mestrado em Informática, UFES
+Gabriel Falcone da Silva — Master's in Computer Science, UFES
